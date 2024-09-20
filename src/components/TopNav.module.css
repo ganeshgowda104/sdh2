@@ -1,0 +1,79 @@
+.welcomeToJohnson {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.shrewsburySurgeryCenterWrapper,
+.welcomeToJohnsonJohnsonCWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.welcomeToJohnsonJohnsonCWrapper {
+  width: 320px;
+  box-sizing: border-box;
+}
+.shrewsburySurgeryCenterWrapper {
+  flex: 1;
+}
+.frameChild {
+  height: 29px;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--gray-00);
+  box-sizing: border-box;
+  opacity: 0.16;
+}
+.multiLanguagedrodpwonWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.frameParent,
+.topNav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 390px;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.topNav {
+  align-self: stretch;
+  box-shadow: 0-1px 0 rgba(255, 255, 255, 0.16) inset;
+  background-color: var(--color-gray-100);
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-281xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--gray-00);
+  font-family: var(--font-comforter);
+}
+@media screen and (max-width: 1350px) {
+  .topNav {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .topNav {
+    padding-left: var(--padding-131xl);
+    padding-right: var(--padding-131xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .topNav {
+    padding-left: var(--padding-56xl);
+    padding-right: var(--padding-56xl);
+    box-sizing: border-box;
+  }
+}

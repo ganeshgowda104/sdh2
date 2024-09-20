@@ -1,0 +1,56 @@
+.frameChild {
+  height: 118px;
+  width: 322px;
+  position: relative;
+  box-shadow: 0 9px 20px rgba(0, 0, 0, 0.08);
+  border-radius: var(--br-8xs);
+  background-color: var(--gray-00);
+  display: none;
+  max-width: 100%;
+}
+.package2Icon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  z-index: 1;
+}
+.fastTrackYour,
+.quickOrder {
+  position: relative;
+  line-height: 20px;
+  z-index: 1;
+}
+.quickOrder {
+  align-self: stretch;
+  text-transform: uppercase;
+}
+.fastTrackYour {
+  color: var(--gray-600);
+}
+.quickOrderParent,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.quickOrderParent {
+  width: 192px;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.rectangleParent {
+  flex: 1;
+  box-shadow: 0 9px 20px rgba(0, 0, 0, 0.08);
+  border-radius: var(--br-8xs);
+  background-color: var(--gray-00);
+  flex-direction: row;
+  padding: var(--padding-8xl) var(--padding-11xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 232px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--gray-900);
+  font-family: var(--font-comforter);
+}

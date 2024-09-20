@@ -1,0 +1,371 @@
+.frameChild {
+  height: 10px;
+  width: 46px;
+  position: relative;
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.frameDiv,
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameDiv {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-6xs);
+}
+.frameGroup,
+.frameWrapper {
+  justify-content: flex-start;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-30xl);
+}
+.frameWrapper {
+  width: 1319.5px;
+  flex-direction: row;
+  padding: 0 var(--padding-8xs) var(--padding-2xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-sm);
+}
+.categories {
+  margin: 0;
+  width: 1321px;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.prostheticLeg101161071Icon {
+  height: 102.4px;
+  width: 102.4px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.prostheticLeg101161071Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-20xl);
+}
+.prostheticsAndOrthotics {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-height: 48px;
+}
+.category {
+  flex: 1;
+  box-shadow: 0 9px 20px rgba(0, 0, 0, 0.08);
+  border-radius: var(--br-9xs);
+  background-color: var(--gray-00);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 201px;
+  max-width: 205px;
+}
+.regulararrowleftIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.arrowButton {
+  height: 48px;
+  width: 48px;
+  margin: 0 !important;
+  top: 87px;
+  left: -24px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-red);
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  z-index: 1;
+}
+.arrowButton,
+.arrowButton1,
+.item {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.item {
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 0 var(--padding-lg) var(--padding-2xs-6) 0;
+  gap: var(--gap-lg);
+  max-width: 100%;
+  height: 100%;
+}
+.arrowButton1 {
+  top: 87px;
+  left: 1296px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-red);
+  width: 48px;
+  height: 48px;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  z-index: 1;
+}
+.categoriesParent,
+.itemParent {
+  align-self: stretch;
+  max-width: 100%;
+}
+.itemParent {
+  height: 233px;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+.categoriesParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.yourBrowsingHistory {
+  margin: 0;
+  align-self: stretch;
+  height: 75px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.div {
+  position: relative;
+  text-decoration: line-through;
+  line-height: 33.4px;
+  display: none;
+  white-space: nowrap;
+}
+.component1Icon {
+  height: 305px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.component1Wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid) 0 var(--padding-mini);
+}
+.warranty,
+.years {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 26.7px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 84px;
+  flex-shrink: 0;
+}
+.years {
+  font-weight: 500;
+  color: var(--color-forestgreen);
+  min-width: 67px;
+}
+.warrantyYears {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs-7);
+  font-size: var(--font-size-xl);
+}
+.highTemperatureMedicalSteri,
+.productSeparator {
+  position: relative;
+  line-height: 33.4px;
+  color: var(--gray-900);
+}
+.productSeparator {
+  width: 209px;
+  font-weight: 500;
+  color: var(--color-red);
+  display: inline-block;
+}
+.historyItems,
+.product,
+.warrantyInfo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.warrantyInfo {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-sm-3);
+  color: var(--gray-500);
+}
+.historyItems,
+.product {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.product {
+  width: 390px;
+  box-shadow: 0 9px 20px rgba(0, 0, 0, 0.08);
+  border-radius: var(--br-8xs);
+  background-color: var(--gray-00);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-lgi) var(--padding-7xl) var(--padding-14xl-4);
+  gap: var(--gap-10xl-9);
+}
+.historyItems {
+  width: 1320px;
+  overflow-x: auto;
+  flex-direction: row;
+  padding: var(--padding-4xs) 0;
+  gap: var(--gap-41xl);
+  font-size: var(--font-size-4xl-4);
+  color: var(--gray-400);
+}
+.yourBrowsingHistoryParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  color: var(--color-black);
+}
+.frameParent,
+.heroSectionV2Inner,
+.yourBrowsingHistoryParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1344px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-90xl);
+}
+.heroSectionV2Inner {
+  width: 1896px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-101xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--gray-900);
+  font-family: var(--font-comforter);
+}
+@media screen and (max-width: 1350px) {
+  .heroSectionV2Inner {
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .frameDiv {
+    flex-wrap: wrap;
+  }
+  .itemParent {
+    height: auto;
+    min-height: 233;
+  }
+}
+@media screen and (max-width: 800px) {
+  .frameGroup {
+    gap: var(--gap-5xl);
+  }
+  .categories {
+    font-size: var(--font-size-13xl);
+    line-height: 32px;
+  }
+  .categoriesParent {
+    gap: var(--gap-base);
+  }
+  .yourBrowsingHistory {
+    font-size: var(--font-size-13xl);
+  }
+  .product {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+  .historyItems {
+    gap: var(--gap-11xl);
+  }
+  .yourBrowsingHistoryParent {
+    gap: var(--gap-base);
+  }
+  .frameParent {
+    gap: var(--gap-35xl);
+  }
+  .heroSectionV2Inner {
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .categories {
+    line-height: 24px;
+  }
+  .categories,
+  .yourBrowsingHistory {
+    font-size: var(--font-size-5xl);
+  }
+  .div {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+  .warranty,
+  .years {
+    font-size: var(--font-size-base);
+    line-height: 21px;
+  }
+  .highTemperatureMedicalSteri,
+  .productSeparator {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+  .frameParent {
+    gap: var(--gap-8xl);
+  }
+}

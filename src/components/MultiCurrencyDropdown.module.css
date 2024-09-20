@@ -1,0 +1,36 @@
+.usd {
+  text-decoration: none;
+  position: relative;
+  line-height: 20px;
+  color: inherit;
+}
+.regularcaretdownIcon {
+  width: 12px;
+  height: 12px;
+  position: relative;
+}
+.dropdown,
+.multiCurrencydropdown,
+.regularcaretdownWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.regularcaretdownWrapper {
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+}
+.dropdown,
+.multiCurrencydropdown {
+  flex-direction: row;
+}
+.dropdown {
+  gap: var(--gap-7xs);
+}
+.multiCurrencydropdown {
+  align-self: stretch;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--gray-00);
+  font-family: var(--font-comforter);
+}

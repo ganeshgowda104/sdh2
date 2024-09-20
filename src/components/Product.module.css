@@ -1,0 +1,81 @@
+.div {
+  position: relative;
+  text-decoration: line-through;
+  line-height: 25px;
+  display: none;
+  white-space: nowrap;
+}
+.component1Icon {
+  height: 228.7px;
+  width: 228.7px;
+  position: relative;
+  object-fit: cover;
+}
+.componentIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xs) 0 var(--padding-smi);
+}
+.warranty,
+.years {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 63px;
+}
+.years {
+  font-weight: 500;
+  color: var(--color-forestgreen);
+  min-width: 50px;
+}
+.warrantyDataPoints {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  font-size: var(--font-size-mini);
+}
+.highTemperatureMedicalSteri,
+.productTitleSpacers {
+  position: relative;
+  line-height: 25px;
+  color: var(--gray-900);
+}
+.productTitleSpacers {
+  width: 157px;
+  font-weight: 500;
+  color: var(--color-red);
+  display: inline-block;
+}
+.product,
+.warrantyDataRows {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.warrantyDataRows {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+  color: var(--gray-500);
+}
+.product {
+  width: 294px;
+  box-shadow: 0 9px 20px rgba(0, 0, 0, 0.08);
+  border-radius: var(--br-9xs-8);
+  background-color: var(--gray-00);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-end;
+  padding: var(--padding-mini-3) var(--padding-2xl) var(--padding-3xl-5)
+    var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xl-5);
+  text-align: left;
+  font-size: var(--font-size-mid-5);
+  color: var(--gray-400);
+  font-family: var(--font-comforter);
+}
